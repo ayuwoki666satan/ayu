@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensaje de Ayu</title>
+  <style>
+    /* Estilo general */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #8fd3f4, #84fab0, #fccb90);
+      background-size: 300% 300%;
+      animation: backgroundAnimation 10s infinite;
+      font-family: 'Comic Sans MS', 'Arial', sans-serif;
+      color: white;
+    }
+
+    /* Animación de fondo */
+    @keyframes backgroundAnimation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Estilo del contenedor */
+    .container {
+      text-align: center;
+      padding: 20px;
+      border: 5px solid rgba(255, 255, 255, 0.5);
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      animation: scaleUp 3s infinite;
+    }
+
+    /* Animación de zoom */
+    @keyframes scaleUp {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    /* Estilo del texto */
+    .rainbow-text {
+      font-size: 2em;
+      line-height: 1.5;
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+      background-size: 400% 400%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rainbowAnimation 3s infinite linear;
+    }
+
+    /* Animación de arcoíris */
+    @keyframes rainbowAnimation {
+      0% { background-position: 0%; }
+      100% { background-position: 100%; }
+    }
+
+    /* Responsive: Ajuste del texto en pantallas pequeñas */
+    @media (max-width: 600px) {
+      .rainbow-text {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="rainbow-text">
+      troleado puajajajaja xdxdxd has sido troleado por ayu, ayu el woki 666 puuuaaaajajjaaa
+      creiste q ibas a encontrar algo interesante pero en realidad solamente es un mensaje d mrd q esta mui bonito
+      Merry Christmas I love you fokin shit
+    </p>
+  </div>
+</body>
+</html>
